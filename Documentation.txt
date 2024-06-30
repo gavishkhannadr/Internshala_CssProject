@@ -1,0 +1,11 @@
+Design Choices : 
+The design choices centered on creating a visually appealing and user-friendly website by using 'Arvo' for bold headers and 'Segoe UI' for readability in body text, incorporating background images with semi-transparent overlays for aesthetic appeal, and implementing a fixed, centered navigation bar with dropdowns for easy access, all while ensuring responsiveness through media queries and enhancing interactivity with hover effects and transitions.
+
+Challenges : 
+The main challenges included integrating multiple fonts consistently across different browsers, achieving the right balance between background images and text readability, and ensuring that the fixed, centered navigation bar with dropdown menus functioned seamlessly. Additionally, making the website fully responsive required careful adjustments and testing to maintain usability across various devices and screen sizes.
+
+
+
+
+
+
