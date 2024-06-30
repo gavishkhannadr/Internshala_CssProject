@@ -1,11 +1,6 @@
-Design Choices : 
-The design choices centered on creating a visually appealing and user-friendly website by using 'Arvo' for bold headers and 'Segoe UI' for readability in body text, incorporating background images with semi-transparent overlays for aesthetic appeal, and implementing a fixed, centered navigation bar with dropdowns for easy access, all while ensuring responsiveness through media queries and enhancing interactivity with hover effects and transitions.
+Design Choices :
+The main principle that the design choices were driven by was to come up with a beautifully designed and easy-to-use website by choosing 'Arvo' that will include bright headers and 'Segoe UI' for text in the body, and the use of background images with semitransparent overlays for visual beauty. The designer made sure to slave over a hot programmer's keyboard and made it as perfect as possible by making a website with a fixed navigation that is at the center of the view and has a dropdown list, also providing responsiveness with media queries and creating 3D buttons with the help of CSS. While implementing these changes, the final navigation bar is smaller than it used to be so much that I can barely see it. Furthermore, I needed to check out webpage balancing effect and rewriting of the unnecessary codes by combining fonts in the library in order to increase the web page size and speed. That is one of the several complications that the Webmaster perceived.
 
 Challenges : 
-The main challenges included integrating multiple fonts consistently across different browsers, achieving the right balance between background images and text readability, and ensuring that the fixed, centered navigation bar with dropdown menus functioned seamlessly. Additionally, making the website fully responsive required careful adjustments and testing to maintain usability across various devices and screen sizes.
 
-
-
-
-
-
+The main hurdles that need to be overcome were finding ways to set up more than one font that would work with all the main networks’ current release web browsers, balancing the best possible mix of background images that clients would like with the legibility as the major goal, and of course the image’s interactivity with the required buttons at the main menu. In addition, the web development team was responsible for various meticulously managed and tested tasks, such as fixing the touchscreen-based items through the changes in the code and the appropriateness of the navigational unit for mobile screen purpose and size. Thus, one of the most effective measures to bring this about required considerable caution and precision in modification and examination of various devices and their
