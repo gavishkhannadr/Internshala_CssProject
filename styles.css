@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* adding new font */
+    
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-image: url(Assets/img/Firefly\ basic\ background\ for\ gaming\ blog\ website\ 90056.jpg);
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Header styles */
+#Home {
+    background-image: url(Assets/img/bg-img.jpg);
+    color: rgb(115, 231, 206);
+    text-align: center;
+    padding: 40px 0;
+    font-family: Arvo, sans-serif;
+
+}
+
+#Home h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+#Home p {
+    font-size: 18px;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.nav-links li a:hover {
+    background-color: #555;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Blog Posts styles */
+section article {
+    background-color: #ffffff85;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    max-width: 800px; /* Set maximum width */
+    margin: 0 auto; /* Center align the article */
+    overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+
+.article-container {
+    background-color: rgba(0, 0, 0, 0.1);  
+}
+article {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.article-container h2 {
+    background-color: #333;
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+.article-container hr {
+    border: 0;
+    border-top: 2px solid #ddd;
+    margin: 10px 0;
+}
+.article-container p {
+    font-size: 1em;
+    margin-bottom: 10px;
+    flex-shrink: 0;
+}
+.article-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+.article-container ul li {
+    background-color: #e9ecef;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.article-container ul li strong {
+    color: #007bff;
+}
+.article-container img, video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+section {
+    margin-top:30px ;
+}
+section article img,
+section article video {
+    max-width: 100%; /* Ensure images and videos do not exceed their container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any extra spacing below images and videos */
+    margin: 10px auto; /* Add some spacing around images and videos */
+}
+
+
+/* About Me section styles */
+#about {
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+#about h2 {
+    background-color: #333;
+    color: #ffffff;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #666;
+    text-align: justify;
+}
+
+#about p:first-letter {
+    font-size: 50px;
+    font-weight: bold;
+}
+/* Contact section styles */
+#contact {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+
+}
+
+#contact h2 {
+    background-color: #333;
+    color: #ffffff;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#contact p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+#contact a {
+    color: #007bff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+#contact form {
+    margin-top: 20px;
+}
+
+#contact form label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#contact form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact form button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styles */
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon {
+    color: #fff;
+    font-size: 24px; /* Adjust icon size */
+    text-decoration: none;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    ection article {
+        max-width: calc(100% - 30px); /* Adjust for smaller screens */
+        padding: 10px;
+    }
+
+    section article img {
+        margin: 15px 0;
+    }
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .dropdown {
+        display: block;
+        position: static;
+    }
+
+    .dropdown-content {
+        position: static;
+        display: none;
+        background-color: #333;
+        width: 100%;
+        text-align: center;
+    }
+
+    .dropdown-content a {
+        padding: 10px;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+}
+
+/* Hover Effects */
+section article:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+section article img:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}
+
+/* CSS Grid for Footer Links */
+footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+
+
+
+
+
+
+
